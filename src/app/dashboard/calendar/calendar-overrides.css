@@ -1,0 +1,74 @@
+/* overrides for react-big-calendar to match our dark/glassmorphic theme */
+.rbc-calendar {
+  color: var(--text-primary);
+}
+
+.rbc-btn-group button {
+  color: var(--text-primary) !important;
+  background: var(--bg-tertiary) !important;
+  border-color: var(--border-color) !important;
+}
+
+.rbc-btn-group button.rbc-active {
+  background: var(--accent-primary) !important;
+  color: white !important;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active:hover,
+.rbc-toolbar button.rbc-active:focus {
+  background: var(--accent-primary) !important;
+  color: white !important;
+}
+
+.rbc-header {
+  border-bottom: 1px solid var(--border-color) !important;
+  border-left: 1px solid var(--border-color) !important;
+  padding: 10px 0 !important;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.rbc-month-view, .rbc-time-view, .rbc-agenda-view {
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+
+.rbc-day-bg, .rbc-time-slot, .rbc-time-header-content, .rbc-timeslot-group, .rbc-time-content {
+  border-left-color: var(--border-color) !important;
+  border-bottom-color: var(--border-color) !important;
+}
+
+.rbc-off-range-bg {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.rbc-today {
+  background: rgba(59, 130, 246, 0.1) !important;
+}
+
+.rbc-event {
+  background-color: var(--accent-primary) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border: none !important;
+}
+
+.rbc-event-content {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.rbc-agenda-view table.rbc-agenda-table tbody > tr > td + td {
+  border-left: 1px solid var(--border-color);
+}
+
+.rbc-agenda-view table.rbc-agenda-table {
+  border: none;
+}
+
+.rbc-agenda-date-cell, .rbc-agenda-time-cell, .rbc-agenda-event-cell {
+  border-bottom: 1px solid var(--border-color);
+}

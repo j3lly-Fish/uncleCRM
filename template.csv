@@ -1,0 +1,11 @@
+name,email,phone,address,birthday,mobile_carrier
+John Doe,john.doe@example.com,555-0100,123 Main St; Anytown; CA; 90210,1980-05-15,vtext.com
+Jane Smith,jane.smith@example.com,555-0101,456 Oak Ave; Springfield; IL; 62701,1992-08-22,txt.att.net
+Alice Johnson,alice.j@example.com,555-0102,789 Pine Ln; Austin; TX; 73301,,tmomail.net
+Bob Williams,bwilliams@example.com,555-0103,321 Maple Dr; Seattle; WA; 98101,1975-11-30,vtext.com
+Charlie Brown,charlie.b@example.com,,654 Cedar St; Denver; CO; 80201,1988-02-14,
+Diana Prince,diana.prince@example.com,555-0105,987 Elm Blvd; Miami; FL; 33101,,txt.att.net
+Evan Davis,evan.d@example.com,555-0106,147 Birch Rd; Boston; MA; 02108,1995-07-04,vtext.com
+Fiona Clark,fiona.c@example.com,555-0107,258 Walnut Ct; Portland; OR; 97204,1983-09-12,tmomail.net
+George Miller,gmiller@example.com,555-0108,369 Chestnut Way; Phoenix; AZ; 85001,,vtext.com
+Hannah Wilson,hannah.w@example.com,555-0109,741 Spruce Cir; Chicago; IL; 60601,1990-12-25,txt.att.net
