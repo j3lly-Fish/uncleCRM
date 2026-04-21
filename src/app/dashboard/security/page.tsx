@@ -20,7 +20,7 @@ export default async function SecurityPage() {
           Protect your account by requiring an authentication code when logging in.
         </p>
         
-        <MfaSettings isEnabled={hasTotp} factorId={factorId} />
+        <MfaSettings isEnabled={!!hasTotp} factorId={factorId} />
       </div>
     </div>
   )

@@ -43,7 +43,7 @@ export default async function LabelsPage() {
           <div key={contact.id} className="label">
             <div className="label-content">
               <strong>{contact.name}</strong><br/>
-              {contact.address?.split('\n').map((line, i) => (
+              {contact.address?.split('\n').map((line: string, i: number) => (
                 <span key={i}>{line}<br/></span>
               ))}
             </div>

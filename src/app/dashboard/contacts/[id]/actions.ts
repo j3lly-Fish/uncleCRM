@@ -29,7 +29,7 @@ export async function updateContact(formData: FormData) {
 
   if (error) {
     console.error('Error updating contact:', error)
-    return { error: error.message }
+    throw new Error(error.message)
   }
 
   // Handle Tags
@@ -63,7 +63,7 @@ export async function deleteContact(formData: FormData) {
 
   if (error) {
     console.error('Error deleting contact:', error)
-    return { error: error.message }
+    throw new Error(error.message)
   }
 
   revalidatePath('/dashboard/contacts')

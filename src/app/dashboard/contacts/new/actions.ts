@@ -31,7 +31,7 @@ export async function createContact(formData: FormData) {
 
   if (error) {
     console.error('Error creating contact:', error)
-    return { error: error.message }
+    throw new Error(error.message)
   }
 
   // Handle Tags
